@@ -14,7 +14,7 @@ h4,
 h5,
 h6,
 time {
-  font-family: "Merienda", sans-serif;
+  font-family: "Rasa", serif;
 }
 
 #container {
@@ -44,6 +44,7 @@ time {
 
 #container header h1 {
   font-size: 2.4rem;
+  font-family: "Merienda", sans-serif;
 }
 
 #container header h1 a {
@@ -100,7 +101,7 @@ time {
 #container main {
   flex: 1 0 0;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #container main section#home ul {
@@ -275,9 +276,9 @@ width: 100%;
 
 .meta-aside, #container main section#home ul li aside, #container main article aside {
   margin: 0.5em 0;
-  font-family: "Merienda", sans-serif;
+  font-family: "Rasa", serif;
   color: #909090;
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 
 .meta-aside ul, #container main section#home ul li aside ul, #container main article aside ul {
