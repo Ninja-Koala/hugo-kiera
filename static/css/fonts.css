@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Merienda';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Merienda.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Rasa';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Rasa.woff2) format('woff2');
+}

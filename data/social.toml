@@ -1,6 +1,12 @@
 #credit beautifulhugo https://github.com/halogenica/beautifulhugo/blob/master/data/beautifulhugo/social.toml
 
 [[social_icons]]
+id = "pouet"
+url = "https://www.pouet.net/user.php?who=%s"
+title = "pouët"
+icon = "fab fa-pouet"
+
+[[social_icons]]
 id = "email"
 url = "mailto:%s"
 title = "Email me"
@@ -183,11 +189,5 @@ icon = "fab fa-dev"
 [[social_icons]]
 id = "shadertoy"
 url = "https://shadertoy.com/user/%s"
-title = "shadertoy"
-icon = "fa-solid fa-s"
-
-[[social_icons]]
-id = "pouet"
-url = "https://www.pouet.net/user.php?who=%s"
-title = "pouet"
-icon = "fa-solid fa-p"
+title = "Shadertoy"
+icon = "fab fa-shadertoy"

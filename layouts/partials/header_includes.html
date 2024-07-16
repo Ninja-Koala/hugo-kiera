@@ -15,14 +15,9 @@
         onload="renderMathInElement(document.body);"></script>
   {{- end }}
 
+  <link rel="stylesheet" href="{{ "css/fonts.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "css/normalize.min.css" | relURL }}" />
   <link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | absURL }}" />
-  {{ if .Site.Params.google_fonts }}
-    {{ $url_part := (delimit .Site.Params.google_fonts "|") | safeHTMLAttr }}
-    <link {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" $url_part | safeHTMLAttr }} rel="stylesheet">
-  {{ else}}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rasa|Merienda" />
-  {{ end }}
   {{ if .Site.Params.disableDarkModeCSS }}
   <link rel="stylesheet" type="text/css" href="{{ "css/styles-light.css" | relURL}}" />
   {{ else}}
