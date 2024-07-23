@@ -515,7 +515,7 @@ ul.pagination li {
   text-decoration: none;
 }
 .mastodon-comment .status .replies.active a {
-  color: #003eaa;
+  color: #3b6dc2;
 }
 .mastodon-comment .status .reblogs.active a {
   color: #8c8dff;
