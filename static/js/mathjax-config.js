@@ -1,9 +1,10 @@
 window.MathJax = {
     tex: {
-        tags: "ams",
-        inlineMath: [['\\(', '\\)']]
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
     },
-    svg: {
-        fontCache: 'global'
+    chtml: {
+        matchFontHeight: false,
+        scale: 0.935
     }
 };
